@@ -31,7 +31,7 @@ The current analysis uses four source files:
 | `tyre_laps.csv` | Provides tyre compound, stint number, tyre life, and driver code for each lap |
 | `drivers.csv` | Provides additional driver metadata that can be linked through `driverId` |
 
-For the initial case study, the data were filtered to the **2025 Bahrain Grand Prix (`raceId = 1148`)**. The lap timing and tyre datasets each contained 1,128 Bahrain lap records before cleaning. :contentReference[oaicite:1]{index=1}
+For the initial case study, the data were filtered to the **2025 Bahrain Grand Prix (`raceId = 1148`)**. The lap timing and tyre datasets each contained 1,128 Bahrain lap records before cleaning.
 
 After the lap timing and tyre datasets were merged, each observation represents one driver's car performance on one race lap together with the tyre and stint conditions associated with that lap.
 
